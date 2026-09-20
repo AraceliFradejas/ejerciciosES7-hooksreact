@@ -1,0 +1,29 @@
+.character-card {
+  background: var(--code-bg, #f4f3ec);
+  border: 1px solid var(--border, #e5e4e7);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.character-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.character-image.flipped {
+  transform: rotate(180deg);
+}
+
+.character-card h2 {
+  font-size: 1.1rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.character-card p {
+  margin: 0.15rem 0;
+  font-size: 0.9rem;
+}
