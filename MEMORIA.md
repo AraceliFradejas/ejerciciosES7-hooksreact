@@ -39,9 +39,13 @@ src/
 
 ## 5. Capturas
 
-App funcionando en local, con la primera tarjeta (Rick Sanchez) ya girada tras el click:
+App funcionando en local, nada más cargar, con los 20 personajes ya pintados:
 
-![Personajes de Rick y Morty, uno de ellos girado tras el click](docs/screenshots/personajes-funcionando.png)
+![Personajes de Rick y Morty recién cargados desde la API](docs/screenshots/personajes-inicial.png)
+
+Tras hacer click en la imagen de Rick Sanchez, la tarjeta gira 180 grados:
+
+![Personajes de Rick y Morty, la primera tarjeta girada tras el click](docs/screenshots/personajes-funcionando.png)
 
 ## 6. Validación
 
